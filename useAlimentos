@@ -1,0 +1,13 @@
+
+public class useAlimentos {
+
+	public static void main(String[] args) {
+
+		Fruta newFruta = new Fruta("Banana", 89, "Vitamina de banana com maça");
+		Bebida newBebida = new Bebida("Suco de Laranja", 45, 300);
+
+		newFruta.exibirInformacao();
+		newBebida.exibirInformacao();
+
+		}
+}
