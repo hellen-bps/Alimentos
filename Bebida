@@ -1,0 +1,11 @@
+
+public class Bebida extends Alimento{
+		private double volume;
+		
+	    public Bebida(String nome, double calorias, double volume) {
+	        super(nome, calorias);
+	        this.volume = volume;
+	    }
+		public void exibirInformacao() {
+			System.out.println("Nome: " + nome + ",Calorias: "+ calorias + "kcal" + "Volume: " + volume);	}
+}
