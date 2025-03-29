@@ -1,0 +1,12 @@
+
+public class Fruta extends Alimento{
+		private String vitaminaPrincipal;
+		
+	    public Fruta(String nome, double calorias, String vitaminaPrincipal) {
+	        super(nome, calorias);
+	        this.vitaminaPrincipal = vitaminaPrincipal;
+	    }
+	    
+		public void exibirInformacao() {
+			System.out.println("Nome: " + nome + ",Calorias: "+ calorias + "kcal" + "Vitamina principal: " + vitaminaPrincipal);	}
+	}
