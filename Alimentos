@@ -1,0 +1,16 @@
+
+public class Alimento {
+	protected String nome;
+	protected double calorias;
+	
+    public Alimento(String nome, double calorias) {
+        this.nome = nome;
+        this.calorias = calorias;
+    }
+	
+	public void exibirInformacao() {
+		System.out.println("Nome: " + nome + ",Calorias: "+ calorias + "kcal");	}
+}
+
+
+
